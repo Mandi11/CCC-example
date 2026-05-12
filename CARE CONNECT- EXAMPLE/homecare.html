@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e2d068b3ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="home-care.css" />
+    <title>CCC</title>
+  </head>
+  <body>
+    <div class="outer-grid">
+      <header>
+        <div class="header-left">
+          <div class="navigation-and-controls">
+            <div class="profile-photo-container">
+              <img
+                src="images/avatar1.jpeg"
+                class="pp"
+                onclick="toggleNav()"
+                alt=""
+              />
+            </div>
+            <div class="back-btn">
+              <a href="careconnect.html"
+                ><i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </div>
+            <div class="childcare-btn">
+              <a href="index.html"
+                ><i class="fa-solid fa-child-reaching"></i
+              ></a>
+            </div>
+            <div class="petcare-btn">
+              <a href="petcare.html"><i class="fa-solid fa-paw"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="header-middle">
+          <h3 class="logo">HOME CARE</h3>
+        </div>
+        <div class="header-right">
+          <div class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </header>
+      <nav class="hide-nav">
+        <div class="nav-btns-container">
+          <div class="nav-btn-container">
+            <i class="fas fa-id-card nav-icon"></i>
+            <a class="nav-link" href="#">Dashboard</a>
+          </div>
+        </div>
+      </nav>
+      <div class="inner-grid">
+        <div class="banners">
+          <div class="login-banner">
+            <div class="banner-link-wrapper">
+              <a href="#">Login or sign up</a>
+            </div>
+            <div class="banner-close-btn-wrapper">
+                <button class="close-btn" onclick="closeLoginBanner()"><i class="fa-solid fa-x"></i></button>
+            </div>
+          </div>
+        </div>
+        <main>
+          <div class="urgent-listings">
+            <h3 class="urgent-heading">Urgent</h3>
+            <div class="listing-container">
+              <div class="listing-pp-container">
+                <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+              </div>
+              <div class="listing-info">
+                <div class="most-important-info">
+                    <div class="left-info">
+                        <h4>House Sitter</h4>
+                        <h4>R200 per night</h4>
+                        <h4>Nights and Morings</h4>
+                        <h4>Meals Included</h4>
+                    </div>
+                    <div class="right-info">
+                        <h4>Midstream</h4>
+                        <h4>Access to home</h4>
+                        <h4>Unlock for help</h4>
+                        <h4>Club access</h4>
+                    </div>
+                </div>
+                <div class="important-info">
+                    <p>
+                        Will be gone for 5 weeks. Need someone to look after the
+                        house, be comfortable yet still profestional.
+                    </p>
+                </div>
+              </div>
+            </div>
+          <div class="urgent-listings">
+            <div class="listing-container">
+              <div class="listing-pp-container">
+                <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+              </div>
+              <div class="listing-info">
+                <div class="most-important-info">
+                    <div class="left-info">
+                        <h4>House Sitter</h4>
+                    </div>
+                    <div class="right-info">
+                        <h4>Midstream</h4>
+                    </div>
+                </div>
+                <div class="important-info">
+                    <p>
+                        Will be gone for 2 weeks. Need someone to look after the
+                        house, must be neat and clean.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <aside>
+          <div class="ad1-container">
+            <div class="ad1-heading">
+              <h4><i class="fa-solid fa-van-shuttle"></i>Airport Carpool</h4>
+              <h5>Safe and easy</h5>
+            </div>
+            <div class="ad1-info">
+              <i class="fa-solid fa-van-shuttle x10"></i>
+              <p>
+                Get a ride to the airport. Quick and easy. Order for your
+                schedule.
+              </p>
+              <button class="ad1-btn">More</button>
+            </div>
+          </div>
+        </aside>
+        <div class="main2">
+          <div class="featured-listings">
+            <h3>Featured</h3>
+            <div class="urgent-listings">
+              <div class="listing-container">
+                <div class="listing-pp-container">
+                  <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+                </div>
+                <div class="listing-info">
+                    <div class="most-important-info">
+                        <div class="left-info">
+                            <h4>House Sitter</h4>
+                        </div>
+                        <div class="right-info">
+                            <h4>Midstream</h4>
+                        </div>
+                    </div>
+                    <div class="important-info">
+                        <p>
+                            Will be gone for 2 weeks. Need someone to look after the
+                            house, must be neat and clean.
+                        </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="urgent-listings">
+              <div class="listing-container">
+                <div class="listing-pp-container">
+                  <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+                </div>
+                <div class="listing-info">
+                    <div class="most-important-info">
+                        <div class="left-info">
+                            <h4>House Sitter</h4>
+                        </div>
+                        <div class="right-info">
+                            <h4>Midstream</h4>
+                        </div>
+                    </div>
+                    <div class="important-info">
+                        <p>
+                            Will be gone for 5 weeks. Need someone to look after the
+                            house, be comfortable yet still profestional.
+                        </p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside2">
+          <div class="ad1-container">
+            <div class="ad1-heading">
+              <h4><i class="fa-solid fa-house-laptop"></i>HOME FINDER</h4>
+              <h5>The Best Home for you. </h5>
+            </div>
+            <div class="ad1-info">
+              <div class="ad2-icons">
+                <i class="fa-solid fa-house-laptop x5"></i>
+              </div>
+              <p>
+                Offering the best and easiest way to find your nex Home. Find the perfect home for you that matches your linkinngs, in neiboorhood, your home, the style and many more...
+              </p>
+              <button class="ad1-btn">More</button>
+            </div>
+          </div>
+        </div>
+        <footer></footer>
+      </div>
+      <div class="tools-bottom">
+        <div class="tool-btn"><i class="fa-solid fa-pen-to-square"></i></div>
+        <div class="tool-btn"><i class="fa-solid fa-user-pen"></i></div>
+        <div class="main-tool-btn"><i class="fa-solid fa-plus"></i></div>
+        <div class="tool-btn"><i class="fa-solid fa-list-check"></i></div>
+        <div class="tool-btn"><i class="fa-solid fa-address-book"></i></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
