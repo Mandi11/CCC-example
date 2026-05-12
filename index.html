@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e2d068b3ea.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>CCC</title>
+  </head>
+  <body>
+    <div class="outer-grid">
+      <header>
+        <div class="header-left">
+          <div class="navigation-and-controls">
+            <div class="profile-photo-container">
+              <img
+                src="images/avatar1.jpeg"
+                class="pp"
+                onclick="toggleNav()"
+                alt=""
+              />
+            </div>
+            <div class="back-btn">
+              <a href="careconnect.html"
+                ><i class="fa-solid fa-arrow-left"></i
+              ></a>
+            </div>
+            <div class="homecare-btn">
+              <a href="homecare.html"><i class="fa-solid fa-igloo"></i></a>
+            </div>
+            <div class="petcare-btn">
+              <a href="petcare.html"><i class="fa-solid fa-paw"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="header-middle">
+          <h3 class="logo">CHILD CARE CONNECT</h3>
+        </div>
+        <div class="header-right">
+          <div class="cart-btn">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </div>
+      </header>
+      <nav class="hide-nav">
+        <div class="nav-btns-container">
+          <div class="nav-btn-container">
+            <i class="fas fa-id-card nav-icon"></i>
+            <a class="nav-link" href="#">Dashboard</a>
+          </div>
+        </div>
+      </nav>
+      <div class="inner-grid">
+        <div class="banners">
+          <div class="login-banner">
+            <div class="banner-link-wrapper">
+              <a href="#">Login or sign up</a>
+            </div>
+            <div class="banner-close-btn-wrapper">
+              <i class="fa-solid fa-x" onclick="closeLoginBanner()"></i>
+            </div>
+          </div>
+        </div>
+        <main>
+          <div class="urgent-listings">
+            <h3>Urgent</h3>
+            <div class="listing-container">
+              <div class="listing-pp-container">
+                <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+              </div>
+              <div class="listing-info">
+                <h4>AuPair</h4>
+                <h4>Midstream</h4>
+                <p>
+                  Three children will need to be collected and dropped at
+                  different homes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="urgent-listings">
+            <div class="listing-container">
+              <div class="listing-pp-container">
+                <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+              </div>
+              <div class="listing-info">
+                <h4>AuPair</h4>
+                <h4>Midstream</h4>
+                <p>
+                  Three children will need to be collected and dropped at
+                  different homes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </main>
+        <aside>
+          <div class="ad1-container">
+            <div class="ad1-heading">
+              <h4><i class="fa-solid fa-car-side"></i>Ride along services</h4>
+              <h5>Safe and easy for your kids</h5>
+            </div>
+            <div class="ad1-info">
+              <i class="fa-solid fa-car x10"></i>
+              <p>
+                Join our ride alond service for your kids. Affordable prices and
+                loose schedules
+              </p>
+              <button class="ad1-btn">More</button>
+            </div>
+          </div>
+        </aside>
+        <div class="main2">
+          <div class="featured-listings">
+            <h3>Featured</h3>
+            <div class="urgent-listings">
+              <div class="listing-container">
+                <div class="listing-pp-container">
+                  <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+                </div>
+                <div class="listing-info">
+                  <h4>AuPair</h4>
+                  <h4>Midstream</h4>
+                  <p>
+                    Three children will need to be collected and dropped at
+                    different homes.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="urgent-listings">
+              <div class="listing-container">
+                <div class="listing-pp-container">
+                  <img class="listing-pp" src="images/avatar1.jpeg" alt="" />
+                </div>
+                <div class="listing-info">
+                  <h4>AuPair</h4>
+                  <h4>Midstream</h4>
+                  <p>
+                    Three children will need to be collected and dropped at
+                    different homes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="aside2">
+          <div class="ad1-container">
+            <div class="ad1-heading">
+              <h4><i class="fa-solid fa-paw"></i>Dog Walking and Pet Siting</h4>
+              <h5>The Best for your pets</h5>
+            </div>
+            <div class="ad1-info">
+              <div class="ad2-icons">
+                <i class="fa-solid fa-dog x5"></i>
+                <i class="fa-solid fa-cat x5"></i>
+              </div>
+              <p>
+                Offering the best dog walking and pet sitting services. Safe and
+                easy. You can enjoy your freedom while your pets are also having
+                fun.
+              </p>
+              <button class="ad1-btn">More</button>
+            </div>
+          </div>
+        </div>
+        <footer></footer>
+      </div>
+      <div class="tools-bottom">
+        <div class="tool-btn"><i class="fa-solid fa-pen-to-square"></i></div>
+        <div class="tool-btn"><i class="fa-solid fa-user-pen"></i></div>
+        <div class="main-tool-btn"><i class="fa-solid fa-plus"></i></div>
+        <div class="tool-btn"><i class="fa-solid fa-list-check"></i></div>
+        <div class="tool-btn"><i class="fa-solid fa-address-book"></i></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

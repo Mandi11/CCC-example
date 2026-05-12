@@ -1,0 +1,138 @@
+/*
+//////////////////////////////////////////////////
+SHARED CSS
+//////////////////////////////////////////////////
+*/
+:root {
+  --clr-main-text-dark: #85603f;
+  --clr-main: #f5fac8;
+  --clr-white: #fff;
+  --clr-darker-main: #dad5ab;
+  --clr-yellow-main: #fcffa6;
+  --clr-powder-blue: #b0e0e6;
+  --clr-navy-blue: #1a1c41;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: po;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Comfortaa", cursive;
+  color: var(--clr-main-text-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-main-text-dark);
+}
+
+/*
+//////////////////////////////////////////////////
+OUTER GRID STYLES
+//////////////////////////////////////////////////
+*/
+
+.outer-grid {
+  height: 100vh;
+  background-color: var(--clr-main);
+}
+
+/*
+//////////////////////////////////////////////////
+INNER GRID STYLES
+//////////////////////////////////////////////////
+*/
+
+.inner-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+.home-care {
+  border-radius: 100%;
+  border: 3px solid var(--clr-darker-main);
+  padding: 25px;
+  margin: 10px;
+  font-size: 5rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-darker-main);
+  cursor: pointer;
+}
+.home-care a:hover {
+  color: var(--clr-navy-blue);
+}
+
+.child-care {
+  border-radius: 100%;
+  border: 3px solid var(--clr-darker-main);
+  padding: 25px 40px;
+  margin: 10px;
+  font-size: 5rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-darker-main);
+  cursor: pointer;
+}
+.child-care a:hover {
+  color: var(--clr-yellow-main);
+}
+
+.pet-care {
+  border-radius: 100%;
+  border: 3px solid var(--clr-darker-main);
+  padding: 25px;
+  margin: 10px;
+  font-size: 5rem;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-darker-main);
+  cursor: pointer;
+}
+.pet-care a:hover {
+  color: var(--clr-powder-blue);
+}
+
+/*
+//////////////////////////////////////////////////
+CHILD CARE STYLES
+//////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////////////////////
+HOME CARE STYLES
+//////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////////////////////
+PET CARE STYLES
+//////////////////////////////////////////////////
+*/
+
+/*
+//////////////////////////////////////////////////
+BREAKPOINTS
+//////////////////////////////////////////////////
+*/
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1440px) {
+}
